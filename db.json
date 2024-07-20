@@ -1,14 +1,237 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "paging": {
+    "pageSize": 20,
+    "currentPage": 1,
+    "totalCount": 40
+  },
+  "tableData": [
+    {
+      "images": [
+        "https://example.com/images/1001/1.jpg",
+        "https://example.com/images/1001/2.jpg",
+        "https://example.com/images/1001/3.jpg"
+      ],
+      "price": "$980.00",
+      "product_id": "1001",
+      "name": "Gucci GG Marmont Matelassé Mini Bag",
+      "season": "New Season",
+      "brand": "Gucci"
+    },
+    {
+      "images": [
+        "https://example.com/images/1002/1.jpg",
+        "https://example.com/images/1002/2.jpg"
+      ],
+      "price": "$895.00",
+      "product_id": "1002",
+      "name": "Prada Re-Nylon Mini Bag",
+      "season": "Fall/Winter 2023",
+      "brand": "Prada"
+    },
+    {
+      "images": [
+        "https://example.com/images/1003/1.jpg",
+        "https://example.com/images/1003/2.jpg",
+        "https://example.com/images/1003/3.jpg",
+        "https://example.com/images/1003/4.jpg"
+      ],
+      "price": "$1,200.00",
+      "product_id": "1003",
+      "name": "Balenciaga Hourglass XS Top Handle Bag",
+      "season": "New Season",
+      "brand": "Balenciaga"
+    },
+    {
+      "images": [
+        "https://example.com/images/1004/1.jpg"
+      ],
+      "price": "$1,650.00",
+      "product_id": "1004",
+      "name": "Fendi Baguette Leather Bag",
+      "season": "Spring/Summer 2023",
+      "brand": "Fendi"
+    },
+    {
+      "images": [
+        "https://example.com/images/1005/1.jpg",
+        "https://example.com/images/1005/2.jpg"
+      ],
+      "price": "$1,400.00",
+      "product_id": "1005",
+      "name": "Louis Vuitton Neverfull MM",
+      "season": "New Season",
+      "brand": "Louis Vuitton"
+    },
+    {
+      "images": [
+        "https://example.com/images/1006/1.jpg",
+        "https://example.com/images/1006/2.jpg",
+        "https://example.com/images/1006/3.jpg"
+      ],
+      "price": "$1,490.00",
+      "product_id": "1006",
+      "name": "Saint Laurent Lou Mini Bag",
+      "season": "Fall/Winter 2023",
+      "brand": "Saint Laurent"
+    },
+    {
+      "images": [
+        "https://example.com/images/1007/1.jpg",
+        "https://example.com/images/1007/2.jpg"
+      ],
+      "price": "$8,200.00",
+      "product_id": "1007",
+      "name": "Chanel Classic Flap Bag",
+      "season": "New Season",
+      "brand": "Chanel"
+    },
+    {
+      "images": [
+        "https://example.com/images/1008/1.jpg",
+        "https://example.com/images/1008/2.jpg"
+      ],
+      "price": "$3,800.00",
+      "product_id": "1008",
+      "name": "Dior Saddle Bag",
+      "season": "Pre-Fall 2023",
+      "brand": "Dior"
+    },
+    {
+      "images": [
+        "https://example.com/images/1009/1.jpg",
+        "https://example.com/images/1009/2.jpg",
+        "https://example.com/images/1009/3.jpg"
+      ],
+      "price": "$12,500.00",
+      "product_id": "1009",
+      "name": "Hermès Birkin 30",
+      "season": "New Season",
+      "brand": "Hermès"
+    },
+    {
+      "images": [
+        "https://example.com/images/1010/1.jpg",
+        "https://example.com/images/1010/2.jpg"
+      ],
+      "price": "$2,300.00",
+      "product_id": "1010",
+      "name": "Bottega Veneta Pouch",
+      "season": "Fall/Winter 2023",
+      "brand": "Bottega Veneta"
+    },
+    {
+      "images": [
+        "https://example.com/images/1011/1.jpg",
+        "https://example.com/images/1011/2.jpg",
+        "https://example.com/images/1011/3.jpg"
+      ],
+      "price": "$2,500.00",
+      "product_id": "1011",
+      "name": "Celine Triomphe Shoulder Bag",
+      "season": "Spring/Summer 2023",
+      "brand": "Celine"
+    },
+    {
+      "images": [
+        "https://example.com/images/1012/1.jpg",
+        "https://example.com/images/1012/2.jpg"
+      ],
+      "price": "$2,190.00",
+      "product_id": "1012",
+      "name": "Givenchy Antigona Small Tote Bag",
+      "season": "New Season",
+      "brand": "Givenchy"
+    },
+    {
+      "images": [
+        "https://example.com/images/1013/1.jpg",
+        "https://example.com/images/1013/2.jpg"
+      ],
+      "price": "$2,150.00",
+      "product_id": "1013",
+      "name": "Alexander McQueen The Story Shoulder Bag",
+      "season": "Fall/Winter 2023",
+      "brand": "Alexander McQueen"
+    },
+    {
+      "images": [
+        "https://example.com/images/1014/1.jpg",
+        "https://example.com/images/1014/2.jpg",
+        "https://example.com/images/1014/3.jpg"
+      ],
+      "price": "$2,750.00",
+      "product_id": "1014",
+      "name": "Loewe Puzzle Small Bag",
+      "season": "New Season",
+      "brand": "Loewe"
+    },
+    {
+      "images": [
+        "https://example.com/images/1015/1.jpg",
+        "https://example.com/images/1015/2.jpg"
+      ],
+      "price": "$2,100.00",
+      "product_id": "1015",
+      "name": "Valentino Garavani Rockstud Small Bag",
+      "season": "Spring/Summer 2023",
+      "brand": "Valentino"
+    },
+    {
+      "images": [
+        "https://example.com/images/1016/1.jpg",
+        "https://example.com/images/1016/2.jpg",
+        "https://example.com/images/1016/3.jpg"
+      ],
+      "price": "$2,195.00",
+      "product_id": "1016",
+      "name": "Versace Virtus Shoulder Bag",
+      "season": "New Season",
+      "brand": "Versace"
+    },
+    {
+      "images": [
+        "https://example.com/images/1017/1.jpg",
+        "https://example.com/images/1017/2.jpg",
+        "https://example.com/images/1017/3.jpg"
+      ],
+      "price": "$1,990.00",
+      "product_id": "1017",
+      "name": "Burberry TB Small Shoulder Bag",
+      "season": "Fall/Winter 2023",
+      "brand": "Burberry"
+    },
+    {
+      "images": [
+        "https://example.com/images/1018/1.jpg",
+        "https://example.com/images/1018/2.jpg"
+      ],
+      "price": "$1,850.00",
+      "product_id": "1018",
+      "name": "Chloé Faye Small Bag",
+      "season": "New Season",
+      "brand": "Chloé"
+    },
+    {
+      "images": [
+        "https://example.com/images/1019/1.jpg",
+        "https://example.com/images/1019/2.jpg"
+      ],
+      "price": "$2,190.00",
+      "product_id": "1019",
+      "name": "Givenchy GV3 Small Shoulder Bag",
+      "season": "Spring/Summer 2023",
+      "brand": "Givenchy"
+    },
+    {
+      "images": [
+        "https://example.com/images/1020/1.jpg",
+        "https://example.com/images/1020/2.jpg"
+      ],
+      "price": "$1,095.00",
+      "product_id": "1020",
+      "name": "Mulberry Bayswater Tote Bag",
+      "season": "New Season",
+      "brand": "Mulberry"
+    }
+  ]
 }
